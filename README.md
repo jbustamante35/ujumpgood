@@ -41,5 +41,5 @@ Here is an example of what the setup looks like:
 
 ### Example Jump
 And here is a clip of one of my jumps: <br />
-![Side](vids/gifs/side.gif)
-![Back](vids/gifs/back.gif)
+![Side](gifs/side.gif)
+![Back](gifs/back.gif)
