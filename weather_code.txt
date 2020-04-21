@@ -1,0 +1,4 @@
+Sunny,1
+Cloudy,2
+Raining,3
+Snowing,4

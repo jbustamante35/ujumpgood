@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SubtitleEditorProject version="1.0">
+  <player uri="file:///home/jbustamante/Dropbox/Misc/dataanalytics/vertical/misc/samuraijack_fly.mkv"/>
+  <styles/>
+  <subtitles timing_mode="TIME" edit_timing_mode="TIME" framerate="25">
+    <subtitle duration="900" effect="" end="900" layer="0" margin-l="0" margin-r="0" margin-v="0" name="" note="" path="0" start="0" style="Default" text="Aku!" translation=""/>
+    <subtitle duration="2800" effect="" end="3800" layer="0" margin-l="0" margin-r="0" margin-v="0" name="" note="" path="1" start="1000" style="Default" text="Samurai fool" translation=""/>
+    <subtitle duration="2900" effect="" end="6900" layer="0" margin-l="0" margin-r="0" margin-v="0" name="" note="" path="2" start="4000" style="Default" text="Your efforts are in vain again" translation=""/>
+    <subtitle duration="5000" effect="" end="12000" layer="0" margin-l="0" margin-r="0" margin-v="0" name="" note="" path="3" start="7000" style="Default" text="This gateway to the past is once more beyond your --" translation=""/>
+    <subtitle duration="600" effect="" end="12700" layer="0" margin-l="0" margin-r="0" margin-v="0" name="" note="" path="4" start="12100" style="Default" text="reee --" translation=""/>
+    <subtitle duration="1200" effect="" end="14000" layer="0" margin-l="0" margin-r="0" margin-v="0" name="" note="" path="5" start="12800" style="Default" text="You can fly?!" translation=""/>
+    <subtitle duration="4800" effect="" end="19000" layer="0" margin-l="0" margin-r="0" margin-v="0" name="" note="" path="6" start="14200" style="Default" text="No, jump good" translation=""/>
+    <subtitle duration="0" effect="" end="0" layer="0" margin-l="0" margin-r="0" margin-v="0" name="" note="" path="7" start="0" style="Default" text="" translation=""/>
+  </subtitles>
+  <subtitles-selection>
+    <subtitle path="4"/>
+  </subtitles-selection>
+</SubtitleEditorProject>
