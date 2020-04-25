@@ -9,3 +9,5 @@ Measurement,Date,Time,Day,Weather,Temperature_C,Height_cm,Stretch_cm,Weight_kg,R
 08,18.04.2020,18:29,Saturday,Sunny,16,164.6,203.2,66.1,272.9
 09,20.04.2020,16:49,Monday,Cloudy,18,164.6,203.2,66.6,273.8
 10,21.04.2020,15:08,Tuesday,Sunny,10,164.6,203.2,66.1,274.2
+11,23.04.2020,15:03,Thursday,Cloudy,11,164.6,203.2,66.9,274.5
+12,25.04.2020,11:05,Saturday,Cloudy,10,164.6,203.2,66.9,276.9
