@@ -66,12 +66,12 @@ subplot(221);
 hold on;
 plt(repl, 'r.', size_data - 2);
 plt(tt.Var1, 'k.', size_data);
-plt([0 , GOAL ; numel(tt.Time) , GOAL], 'r--', 1);                             % Goal
+plt([0 , GOAL ; numel(tt.Time) , GOAL], 'r--', 1);                            % Goal
 plt([0 , Y.Vertical_cm(end) ; numel(tt.Time) , Y.Vertical_cm(end)], 'b-', 1); % Latest
 plt([0 , Y.Vertical_cm(1) ; numel(tt.Time) , Y.Vertical_cm(1)], 'm-', 1);     % Initial
 xticks(1 : mskip : numel(tt.Time));
 xticklabels(dtstr(cellfun(@str2num, get(gca, 'XTickLabel'))));
-ylim(round([min(tt.Var1) - mbuff , GOAL + mbuff]));
+ylim(round([min(tt.Var1) - mbuff , max(Y.Vertical_cm) + mbuff]));
 set(gca, 'FontSize', size_ticks - 2);
 xlabel('Date', 'FontSize', size_label);
 ylabel('Vertical (cm)', 'FontSize', size_label);
@@ -125,7 +125,7 @@ tbuff      = 1;
 wbuff      = 0.2;
 
 figclr(2);
-fnms{2} = sprintf('%s_VerticalAnalysis_Projection', tdate, max(Y.Measurement));
+fnms{2} = sprintf('%s_VerticalAnalysis_Projection', tdate);
 
 % ------------------------------- Measurement -------------------------------- %
 hold on;
